@@ -1,7 +1,7 @@
-diff --git a/common/RedisConnection.php b/common/RedisConnection.php
+diff --git a/src/RedisConnection.php b/src/RedisConnection.php
 index ae1de44..d865ecb 100644
---- a/common/RedisConnection.php
-+++ b/common/RedisConnection.php
+--- a/src/RedisConnection.php
++++ b/src/RedisConnection.php
 @@ -301,7 +301,7 @@ class RedisConnection extends BaseConnection implements ConnectionInterface
              $parameters[] = $config['context'];
          }
